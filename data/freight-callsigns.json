@@ -1,0 +1,20 @@
+{
+  "_note": "Heuristic only: a callsign prefix identifies the airline, not the cargo on board. Extend as you find more.",
+  "operators": {
+    "FDX": { "operator": "FedEx Express", "category": "express parcel" },
+    "UPS": { "operator": "UPS Airlines", "category": "express parcel" },
+    "GTI": { "operator": "Atlas Air", "category": "air cargo" },
+    "CLX": { "operator": "Cargolux", "category": "air cargo" },
+    "BCS": { "operator": "European Air Transport (DHL)", "category": "express parcel" },
+    "DHK": { "operator": "DHL Air UK", "category": "express parcel" },
+    "CKS": { "operator": "Kalitta Air", "category": "air cargo" },
+    "PAC": { "operator": "Polar Air Cargo", "category": "air cargo" },
+    "CKK": { "operator": "China Cargo Airlines", "category": "air cargo" },
+    "CAO": { "operator": "Air China Cargo", "category": "air cargo" },
+    "CSS": { "operator": "SF Airlines", "category": "express parcel" },
+    "NCA": { "operator": "Nippon Cargo Airlines", "category": "air cargo" },
+    "MPH": { "operator": "Martinair Cargo", "category": "air cargo" },
+    "TAY": { "operator": "ASL Airlines Belgium (TNT)", "category": "express parcel" },
+    "AHK": { "operator": "Air Hong Kong", "category": "express parcel" }
+  }
+}

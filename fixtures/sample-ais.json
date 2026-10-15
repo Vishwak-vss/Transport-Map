@@ -1,0 +1,30 @@
+[
+  { "_note": "SYNTHETIC messages in AISStream format, for offline development. Not real vessels." },
+  { "MessageType": "ShipStaticData",
+    "MetaData": { "MMSI": 563000001, "ShipName": "SAMPLE CONTAINER 1", "latitude": 1.3, "longitude": 103.9, "time_utc": "2026-01-01 00:00:00 +0000 UTC" },
+    "Message": { "ShipStaticData": { "Name": "SAMPLE CONTAINER 1", "Type": 72, "Destination": "SINGAPORE > ROTTERDAM", "ImoNumber": 9000001, "Eta": { "Month": 11, "Day": 20, "Hour": 12, "Minute": 0 } } } },
+  { "MessageType": "PositionReport",
+    "MetaData": { "MMSI": 563000001, "ShipName": "SAMPLE CONTAINER 1", "latitude": 5.0, "longitude": 98.0, "time_utc": "2026-01-01 00:00:00 +0000 UTC" },
+    "Message": { "PositionReport": { "Cog": 290, "Sog": 17.5, "TrueHeading": 290, "Latitude": 5.0, "Longitude": 98.0 } } },
+
+  { "MessageType": "ShipStaticData",
+    "MetaData": { "MMSI": 636000002, "ShipName": "SAMPLE TANKER 2", "latitude": 24.0, "longitude": 60.0, "time_utc": "2026-01-01 00:00:00 +0000 UTC" },
+    "Message": { "ShipStaticData": { "Name": "SAMPLE TANKER 2", "Type": 80, "Destination": "AEJEA", "ImoNumber": 9000002, "Eta": { "Month": 10, "Day": 25, "Hour": 6, "Minute": 0 } } } },
+  { "MessageType": "PositionReport",
+    "MetaData": { "MMSI": 636000002, "ShipName": "SAMPLE TANKER 2", "latitude": 22.0, "longitude": 62.0, "time_utc": "2026-01-01 00:00:00 +0000 UTC" },
+    "Message": { "PositionReport": { "Cog": 315, "Sog": 12.0, "TrueHeading": 315, "Latitude": 22.0, "Longitude": 62.0 } } },
+
+  { "MessageType": "ShipStaticData",
+    "MetaData": { "MMSI": 244000003, "ShipName": "SAMPLE CARGO 3", "latitude": 50.5, "longitude": 1.0, "time_utc": "2026-01-01 00:00:00 +0000 UTC" },
+    "Message": { "ShipStaticData": { "Name": "SAMPLE CARGO 3", "Type": 70, "Destination": "NL RTM", "ImoNumber": 9000003, "Eta": { "Month": 10, "Day": 15, "Hour": 18, "Minute": 0 } } } },
+  { "MessageType": "PositionReport",
+    "MetaData": { "MMSI": 244000003, "ShipName": "SAMPLE CARGO 3", "latitude": 50.5, "longitude": 0.5, "time_utc": "2026-01-01 00:00:00 +0000 UTC" },
+    "Message": { "PositionReport": { "Cog": 60, "Sog": 11.0, "TrueHeading": 60, "Latitude": 50.5, "Longitude": 0.5 } } },
+
+  { "MessageType": "ShipStaticData",
+    "MetaData": { "MMSI": 338000004, "ShipName": "SAMPLE FERRY 4", "latitude": 51.0, "longitude": 1.5, "time_utc": "2026-01-01 00:00:00 +0000 UTC" },
+    "Message": { "ShipStaticData": { "Name": "SAMPLE FERRY 4", "Type": 60, "Destination": "", "ImoNumber": 9000004, "Eta": { "Month": 0, "Day": 0, "Hour": 24, "Minute": 60 } } } },
+  { "MessageType": "PositionReport",
+    "MetaData": { "MMSI": 338000004, "ShipName": "SAMPLE FERRY 4", "latitude": 51.0, "longitude": 1.5, "time_utc": "2026-01-01 00:00:00 +0000 UTC" },
+    "Message": { "PositionReport": { "Cog": 120, "Sog": 18.0, "TrueHeading": 120, "Latitude": 51.0, "Longitude": 1.5 } } }
+]

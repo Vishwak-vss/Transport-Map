@@ -1,0 +1,11 @@
+{
+  "_note": "SYNTHETIC sample in OpenSky /states/all format, for offline development. Not real flights.",
+  "time": 0,
+  "states": [
+    ["a1b2c3", "FDX124  ", "United States", 0, 0, -40.0, 48.0, 11000, false, 240, 60, 0, null, 11000, null, false, 0],
+    ["a4d5e6", "UPS45   ", "United States", 0, 0, 175.0, 52.0, 10500, false, 235, 280, 0, null, 10500, null, false, 0],
+    ["3c6444", "DLH456  ", "Germany", 0, 0, 10.0, 50.0, 10800, false, 230, 300, 0, null, 10800, null, false, 0],
+    ["a7f8a9", "GTI8231 ", "United States", 0, 0, -150.0, 62.0, 10200, false, 238, 270, 0, null, 10200, null, false, 0],
+    ["780abc", "CKK251  ", "China", 0, 0, 100.0, 40.0, 10400, false, 240, 275, 0, null, 10400, null, false, 0]
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "_note": "Common English/AIS names that differ from the UN/LOCODE spelling. Each value must exist in ports.csv (a test checks this).",
+  "aliases": {
+    "ANTWERP": "BEANR",
+    "GOTHENBURG": "SEGOT",
+    "LISBON": "PTLIS",
+    "GENOA": "ITGOA",
+    "NAPLES": "ITNAP",
+    "VENICE": "ITVCE",
+    "LEGHORN": "ITLIV",
+    "DUNKIRK": "FRDKK",
+    "COPENHAGEN": "DKCPH",
+    "FLUSHING": "NLVLI",
+    "LONG BEACH": "USLGB",
+    "ANTWERPEN": "BEANR"
+  }
+}
